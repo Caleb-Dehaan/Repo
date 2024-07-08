@@ -18,16 +18,16 @@ void searchAndPerformActions(int arr[], int size, int targets[], int targetSize)
     int o13 = 13;
     int o14 = 14;
 
-    for (i = 0; i < targetSize; i++) {
+    //Start by setting i = 0, Continue looping while i < 13, Every time you've been around the loop, increase i by 1.
+    for (i = 0; i < 13; i++) {
         int target = targets[i];
         int found = 0; // Flag to indicate if the value is found
         
         for (j = 0; j < size; j++) {
             if (arr[j] == target) {
                 found = 1;
-                // Perform the desired action
-                printf("Value %d found at index %d. Performing action...\n", target, j);
-                // Add any other actions you want to perform here
+                // Perform an action
+                TBD
             }
         }
         
