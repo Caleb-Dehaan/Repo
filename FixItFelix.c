@@ -2,50 +2,96 @@
 
 // Function to search for multiple values in an array and perform actions if found
 void searchAndPerformActions(int arr[], int size, int targets[], int targetSize) {
-    int i;
-    int o1 = 1;
-    int o2 = 2;
-    int o3 = 3;
-    int o4 = 4;
-    int o5 = 5;
-    int o6 = 6;
-    int o7 = 7;
-    int o8 = 8;
-    int o9 = 9;
-    int o10 = 10;
-    int o11 = 11;
-    int o12 = 12;
-    int o13 = 13;
-    int o14 = 14;
 
-    //Start by setting i = 0, Continue looping while i < 13, Every time you've been around the loop, increase i by 1.
-    for (i = 0; i < 13; i++) {
-        int target = targets[i];
-        int found = 0; // Flag to indicate if the value is found
-        
-        for (j = 0; j < size; j++) {
-            if (arr[j] == target) {
-                found = 1;
-                // Perform an action
-                TBD
-            }
+    int i; //Count Variable
+    int target = targets[i]; //
+    int found = 0; // Flag to indicate if the value is found
+
+    //Start by setting i = 0, Every time you've been around the loop, increase i by 1.
+    for (i = 0; i++) {
+
+        if (target == 1) {
+        found = 1;
+        int result = system("sfc /scannow");
         }
         
+        if (target == 2) {
+        found = 1;
+        int result = system("DISM /online /cleanup-image /restorehealth");
+        }
+
+        if (target == 3) {
+        found = 1;
+        int result = system("Chkdsk /f /x /r C:");
+        }
+
+        if (target == 4) {
+        found = 1;
+        int result = system("sfc /scannow");
+        }
+
+        if (target == 5) {
+        found = 1;
+        int result = system("sfc /scannow");
+        }
+
+        if (target == 6) {
+        found = 1;
+        int result = system("sfc /scannow");
+        }
+
+        if (target == 7) {
+        found = 1;
+        int result = system("sfc /scannow");
+        }
+
+        if (target == 8) {
+        found = 1;
+        int result = system("sfc /scannow");
+        }
+
+        if (target == 9) {
+        found = 1;
+        int result = system("sfc /scannow");
+        }
+
+        if (target == 10) {
+        found = 1;
+        int result = system("sfc /scannow");
+        }
+
+        if (target == 11) {
+        found = 1;
+        int result = system("sfc /scannow");
+        }
+
+        if (target == 12) {
+        found = 1;
+        int result = system("sfc /scannow");
+        }
+
+        if (target == 13) {
+        found = 1;
+        int result = system("sfc /scannow");
+        }
+
+        if (target == 14) {
+        found = 1;
+        int result = system("sfc /scannow");
+        }
+
         if (!found) {
             printf("Value %d not found in the array.\n", target);
         }
     }
 }
-
 // Welcome dialouge
-int main(){ 
+int main() { 
 
     // Var for numbers of tools to be run
     int n_tools, n_options, n_selected, i;
-
     // Declare an array to store the numbers of the menu options
     int arr[n_options] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
-
     // Declare an array to store the target values
     int targets[n_selected];
 
