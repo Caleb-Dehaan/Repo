@@ -8,7 +8,7 @@ void searchAndPerformActions(int arr[], int size, int targets[], int targetSize)
     int found = 0; // Flag to indicate if the value is found
 
     //Start by setting i = 0, Every time you've been around the loop, increase i by 1.
-    for (i = 0; i++) {
+    for (i = 0; i++;) {
 
         if (target == 1) {
         found = 1;
@@ -25,12 +25,12 @@ void searchAndPerformActions(int arr[], int size, int targets[], int targetSize)
         int result = system("Chkdsk C:");
         }
 
-        f (target == 4) {
+        if (target == 4) {
         found = 1;
         int result = system("Chkdsk /f /x /r C:");
         }
 
-        f (target == 5) {
+        if (target == 5) {
         found = 1;
         int result = system("Set-ExecutionPolicy -ExecutionPolicy RemoteSigned");
         int result = system("Install-Module PSWindowsUpdate");
@@ -43,12 +43,16 @@ void searchAndPerformActions(int arr[], int size, int targets[], int targetSize)
 int main() { 
 
     // Var for numbers of tools to be run
-    int n_tools, n_options, n_selected, i;
-    // Declare an array to store the numbers of the menu options
-    int arr[n_options] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
+    int n_tools;
+    // Var for potential options that can be selected
+    int n_options;
+    // Var for options selected
+    int n_selected;
+    // Var for counting
+    int i;
     // Declare an array to store the target values
-    int targets[n_selected];
-    
+    int targets[14];
+
     // Welcome dialouge
     printf("Welcome to FixItFelix");    
     printf("What do we want to fix today?:\n");
