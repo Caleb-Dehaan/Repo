@@ -70,7 +70,7 @@ int main() {
     }
 
     // Call the function to search for the target values and perform actions if found
-    searchAndPerformActions(arr, n_options, targets, n_selected);
+    
 
  return 0; 
 }   
